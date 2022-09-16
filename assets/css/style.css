@@ -14,13 +14,15 @@
   max-width: 100vw;
   justify-content: center;
   align-items: center;
+  font-family: "Secular One", sans-serif;
   color: #f9f4f5;
 }
+
+/* SIDE BAR */
 
 .side-product-bar {
   grid-area: aside;
   background-color: #c8b8db;
-  /*   height: 80vh; */
   display: flex;
   flex-direction: column;
 }
@@ -39,18 +41,18 @@
   font-weight: 100;
 }
 
+/* PRODUCT SECTION */
+
 .product-section {
   grid-area: section;
   background-color: #c8b8db;
-  /* height: 80vh; */
-  display: grid;
 
+  /* INNER PRODUCT GRID */
+  display: grid;
   justify-content: center;
   align-content: center;
   grid-template-columns: 1fr 1fr 1fr;
-  /* grid-template-rows: 500px 500px; */
   gap: 2rem;
-  /* overflow: hidden; */
   padding: 1rem 0;
 }
 
@@ -71,6 +73,14 @@
   background-color: #ffffff;
 }
 
+.product-title {
+  font-size: 26px;
+}
+
+.product-price {
+  font-size: 18px;
+}
+
 .btn {
   width: 100%;
   text-decoration: none;
@@ -81,12 +91,25 @@
   border: 0;
 }
 
+/* FOOTER */
+
 footer {
   grid-area: footer;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: "Secular One", sans-serif;
   background-color: #f9f4f5;
   height: 10vh;
   max-width: 100vw;
+}
+
+/* FONT STYLING */
+.big-text {
+  font-family: "Secular One", sans-serif;
+}
+
+.small-text {
+  font-family: "Secular One", sans-serif;
+  font-weight: 300;
 }
