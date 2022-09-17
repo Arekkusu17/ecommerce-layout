@@ -134,13 +134,8 @@ footer {
 
 /* MOBILE */
 @media only screen and (max-width: 768px) {
-  .side-product-bar {
-    min-width: 20vw;
-  }
-
   .product-section {
-    grid-template-columns: 450px;
-    width: 80vw;
+    grid-template-columns: 420px;
     justify-items: center;
   }
 }
@@ -151,7 +146,7 @@ footer {
   }
 
   .product-section {
-    grid-template-columns: 350px;
+    grid-template-columns: 300px;
     width: 100vw;
     justify-items: center;
   }
